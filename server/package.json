@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && pnpm start",
+    "server": "cd server && pnpm run dev",
+    "test:client": "cd client && pnpm test",
+    "test:server": "cd server && pnpm test",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "jest": "^30.0.4",
+    "mongodb-memory-server": "^10.1.4",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.3"
+  }
+}

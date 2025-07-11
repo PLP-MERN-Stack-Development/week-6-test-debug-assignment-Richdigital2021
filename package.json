@@ -1,0 +1,19 @@
+{
+  "name": "week-6-test-debug-assignment-Richdigital2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && pnpm run dev\" \"cd client && pnpm start\"",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4"
+  }
+}
